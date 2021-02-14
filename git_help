@@ -1,0 +1,13 @@
+git add -A  --adding all the cahnges to the staging area
+git reset filename --removing the file from the staging
+git remote -v  -- infn about the repo
+git branch -a    --infn aboit the repo, both local and remote
+git branch <branch_name>  -- creating branch
+git checkout <branch_name>  -- move from current branch to the specified branch
+git checkout -b <branch_name> -- creates a brnach and moves there from current branch
+git push -u origin <branch_name> --origin is the remote repo, branch name is the branch in the remote repo to which it has to be pushed
+git pull origin <branch_name> -- this will pull down the latest updates if any, usually doen before we push to the remote repo.
+git branch --merged   --- this will list all the branches that has been merged till now.
+git merge <branch_name> --- this will merge the brnach with the master. do this from master.
+git branch -d <branch_name> -- deleting a branch from local, done after merging to master.
+git push origin --delete <branch_name>  ---delete a branch from remote repo.
